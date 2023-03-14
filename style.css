@@ -105,10 +105,7 @@ table{
   
 }
 
-.h1, .h2, .h3{
-display: flex;
-justify-content: center;
-}
+
 @media(min-width:960px){
     .historic_container {
         display: flex;
@@ -128,6 +125,10 @@ justify-content: center;
     .GHpic{
         margin-top: -120px;
     }
+    .h1, .h2, .h3{
+        display: flex;
+        justify-content: center;
+        }
 
   
 }
