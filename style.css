@@ -104,6 +104,10 @@ table{
     width: 80%;
   
 }
+.h1, .h2, .h3{
+    display: flex;
+    justify-content: center;
+    }
 
 
 @media(min-width:960px){
@@ -129,6 +133,7 @@ table{
         display: flex;
         justify-content: center;
         }
+        
 
   
 }
