@@ -1,11 +1,14 @@
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 5% ;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
     margin-right: 5%;
-    background-color:#ddbea9;
+    background-color: #ddbea9;
 }
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 1em;
@@ -15,8 +18,8 @@ table {
     margin: auto;
 }
 
-.intro{
-    background-color:#cb997e;
+.intro {
+    background-color: #cb997e;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -32,119 +35,196 @@ table {
     width: 40%;
     border-radius: 50%;
 }
-.historical_places{
-    text-align:center;
+
+.historical_places {
+    text-align: center;
 }
 
 
-.city{
-    
-    width:50%;
-    text-align:left;
+.city {
+
+    width: 50%;
+    text-align: left;
 }
 
-.city h2{
-margin-left: 40px;
+.city h2 {
+    margin-left: 40px;
 }
 
-.FavouriteCity{
-float:left;
-padding: 0 20px 20px 0;
-width:100%;
-font-size: large;
+.FavouriteCity {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 100%;
+    font-size: large;
 
 }
 
-.imageofJapan{
-float:left;
-width:25em;
+.imageofJapan {
+    float: left;
+    width: 25em;
 }
 
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.clear{
-clear:left;
-text-align: center;
+.clear {
+    clear: left;
+    text-align: center;
+    margin: 0 10px 10px 0;
 }
 
-.Museum{
-flex:1;
-margin-top: 0px;
+.Museum {
+    flex: 1;
+    margin-top: 0px;
 }
 
-.CSPIC{
-    flex:1;
+.CSPIC {
+    flex: 1;
     margin-top: 0px;
 }
 
 .CSPIC img {
     order: -1;
 }
-.GHpic{
-    flex:1;
+
+.GHpic {
+    flex: 1;
 
 }
 
-.historic_container p{
-    width: 200px;
+.historic_container p {
+    width: 50px;
     justify-content: center;
-   
 }
 
 
-.historic_container img{
+.historic_container img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-   
+    flex-direction: column;
+
 }
-table{
+
+table {
     padding: auto;
     width: 80%;
-  
+
 }
-.h1, .h2, .h3{
+
+.h1,
+.h2,
+.h3 {
     display: flex;
     justify-content: center;
-    }
+}
+
+.h2 img {
+    float: left;
+}
 
 
-@media(min-width:960px){
+@media(min-width:960px) {
     .historic_container {
         display: flex;
         align-items: center;
         justify-content: center;
         width: fit-content;
-    
+        /* flex-direction: column; */
+
     }
+
+    .historic_container p {
+        width: 200px;
+        justify-content: center;
+    }
+
     .CSPIC img {
         order: 2;
 
     }
-    .CSPIC{
+
+    .CSPIC {
         margin-top: -75px;
     }
 
-    .GHpic{
+    .GHpic {
         margin-top: -120px;
     }
-    .h1, .h2, .h3{
-        display: flex;
-        justify-content: center;
-        }
 
-.FavouriteCity{
-    float:left;
-    padding: 0 30px 30px 0;
-    width:60%;
-    font-size: large;
-    margin-left: 30px;
-    
+    /* .h1, .h2, .h3{
+        /* display: flex; */
+    /* justify-content: center;
+        } */
+    .historic_container ul {
+        justify-content: center;
+        text-align: justify;
     }
-    
-        
+
+    .FavouriteCity {
+        float: left;
+        padding: 0 30px 30px 0;
+        width: 60%;
+        font-size: large;
+        margin-left: 30px;
+
+    }
+
+    .imageofJapan {
+        float: left;
+        width: 25em;
+    }
 
   
 }
+/* @media only screen and (min-width: 33.75em){
+    .imageofJapan {
+        float: left;
+        width: 25em;
+        text-align: center;
+    }
+
+    /* .Museum{
+        flex-direction: column;
+    }
+         */
+/* } */
+
+@media (max-width: 43em) {
+    .imageofJapan {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .h1 img{
+        /* background-color: blue; */
+        float: right;
+    }
+
+    /* .h2 img{
+        /* background-color:aqua; */
+
+    /* }  */
+
+    /* .h3 img{ */
+        /* background-color:brown; */
+    /* } */
+.h1 {
+            background-color:orange;
+           /* flex-direction: column; */
+}
+.h2 {
+            background-color:yellow;
+
+}
+.h3{
+            background-color:brown;
+
+}
+    /* .historic_container ul {
+        /* justify-content: center; */
+        /* text-align: justify; */
+        /* flex-direction: column;*/
+    }
