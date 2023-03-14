@@ -32,6 +32,9 @@ table {
     width: 40%;
     border-radius: 50%;
 }
+.historical_places{
+    text-align:center;
+}
 
 
 .city{
@@ -62,6 +65,7 @@ box-sizing: border-box;
 
 .clear{
 clear:left;
+text-align: center;
 }
 
 .Museum{
@@ -97,7 +101,7 @@ margin-top: 0px;
 }
 table{
     padding: auto;
-    width: 60%;
+    width: 80%;
   
 }
 
