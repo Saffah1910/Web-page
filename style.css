@@ -76,12 +76,12 @@ table {
 
 .Museum {
     flex: 1;
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 
 .CSPIC {
     flex: 1;
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 
 .CSPIC img {
@@ -93,16 +93,16 @@ table {
 
 }
 
-.historic_container p {
+/* .historic_container p {
     width: 50px;
     justify-content: center;
-}
+} */
 
 
 .historic_container img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     flex-direction: column;
 
 }
@@ -113,15 +113,22 @@ table {
 
 }
 
-.h1,
-.h2,
-.h3 {
+.d6_museum,
+.city_hall,
+.castle_gh {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-.h2 img {
+/* .h2 img {
     float: left;
+} */
+
+.hpimg{
+    float: right;
+    margin: auto;
+    height: 100px;
+    width: 10em;
 }
 
 
@@ -157,10 +164,10 @@ table {
         /* display: flex; */
     /* justify-content: center;
         } */
-    .historic_container ul {
+    /* .historic_container p{
         justify-content: center;
         text-align: justify;
-    }
+    } */
 
     .FavouriteCity {
         float: left;
@@ -210,11 +217,11 @@ table {
 
     /* .h3 img{ */
         /* background-color:brown; */
-    /* } */
-.h1 {
-            background-color:orange;
+    
+/* .h1 { */
+            /* background-color:orange; */
            /* flex-direction: column; */
-}
+/* }
 .h2 {
             background-color:yellow;
 
@@ -222,9 +229,9 @@ table {
 .h3{
             background-color:brown;
 
-}
+} */
     /* .historic_container ul {
         /* justify-content: center; */
         /* text-align: justify; */
         /* flex-direction: column;*/
-    }
+}
