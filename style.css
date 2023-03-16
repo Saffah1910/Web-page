@@ -25,15 +25,20 @@ table {
     justify-content: space-evenly;
     padding: 2em;
 }
+.imageTB{
+    float:right;
+    width: 40%;
+    border-radius: 50%;
+}
 
 .intro h1 {
-    width: 40%;
+    float: left;
+ 
     text-align: center;
 }
 
-.intro img {
-    width: 40%;
-    border-radius: 50%;
+.clear1{
+clear: both;
 }
 
 .historical_places {
@@ -47,9 +52,10 @@ table {
     text-align: left;
 }
 
-.city h2 {
+.city h2{
     margin-left: 40px;
-}
+  }
+
 
 .FavouriteCity {
     float: left;
@@ -64,6 +70,7 @@ table {
     width: 25em;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -74,38 +81,12 @@ table {
     margin: 0 10px 10px 0;
 }
 
-.Museum {
-    flex: 1;
-    /* margin-top: 0px; */
+.historic_container {
+  
+    display: flex;
 }
 
-.CSPIC {
-    flex: 1;
-    /* margin-top: 0px; */
-}
 
-.CSPIC img {
-    order: -1;
-}
-
-.GHpic {
-    flex: 1;
-
-}
-
-/* .historic_container p {
-    width: 50px;
-    justify-content: center;
-} */
-
-
-.historic_container img {
-    width: 200px;
-    height: 200px;
-    /* border-radius: 50%; */
-    flex-direction: column;
-
-}
 
 table {
     padding: auto;
@@ -113,61 +94,72 @@ table {
 
 }
 
-.d6_museum,
-.city_hall,
-.castle_gh {
-    display: flex;
-    /* justify-content: center; */
-}
-
-/* .h2 img {
-    float: left;
-} */
-
-.hpimg{
-    float: right;
-    margin: auto;
-    height: 100px;
-    width: 10em;
-}
 
 
 @media(min-width:960px) {
+    .imageTB{
+        float:right;
+        width: 40%;
+        border-radius: 50%;
+    }
+    
+    .intro h1 {
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
     .historic_container {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: fit-content;
-        /* flex-direction: column; */
 
     }
 
-    .historic_container p {
-        width: 200px;
-        justify-content: center;
+    .Museum {
+        width: 33.33%;
     }
 
-    .CSPIC img {
-        order: 2;
+    .CityHall {
+        width: 33.33%
+    }
+
+    .CastleGH {
+        width: 33.33%
+    }
+
+
+    .CastleGH img {
+        float: left;
+        margin-right: 0.5em;
 
     }
 
-    .CSPIC {
-        margin-top: -75px;
+    .Museum img {
+        float: left;
+        margin-right: 0.5em;
     }
 
-    .GHpic {
-        margin-top: -120px;
+    .CityHall img {
+        float: left;
+        margin-right: 0.5em;
+
     }
 
-    /* .h1, .h2, .h3{
-        /* display: flex; */
-    /* justify-content: center;
-        } */
-    /* .historic_container p{
-        justify-content: center;
-        text-align: justify;
-    } */
+    .CastleGH h3 {
+        text-align: center;
+    }
+
+    .Museum h3 {
+        text-align: center;
+    }
+
+    .CityHall h3 {
+        text-align: center;
+    }
+
+
+
+    p {
+        margin-right: 0.5em;
+    }
 
     .FavouriteCity {
         float: left;
@@ -182,56 +174,69 @@ table {
         float: left;
         width: 25em;
     }
+    .city h2{
+      margin-left: 40px;
+    }
 
-  
+
 }
-/* @media only screen and (min-width: 33.75em){
-    .imageofJapan {
-        float: left;
-        width: 25em;
+
+
+@media (max-width: 43em) {
+    .imageTB{
+       
+        width: 30%;
+        border-radius: 50%;
+    }
+    
+    .intro h1 {
+      
+        width: 30%;
+        font-size: small;
         text-align: center;
     }
 
-    /* .Museum{
-        flex-direction: column;
-    }
-         */
-/* } */
-
-@media (max-width: 43em) {
     .imageofJapan {
         float: left;
         width: 100%;
         text-align: center;
     }
 
-    .h1 img{
-        /* background-color: blue; */
-        float: right;
+    .historic_container {
+     
+        flex-direction: column;
     }
 
-    /* .h2 img{
-        /* background-color:aqua; */
+    .Museum img {
+        float: left;
+        margin-right: 0.5em;
+    }
 
-    /* }  */
+    .CastleGH img {
+        float: left;
+        margin-right: 0.5em;
 
-    /* .h3 img{ */
-        /* background-color:brown; */
-    
-/* .h1 { */
-            /* background-color:orange; */
-           /* flex-direction: column; */
-/* }
-.h2 {
-            background-color:yellow;
+    }
 
-}
-.h3{
-            background-color:brown;
+    .CityHall img {
+        float: right;
+        flex-direction: row-reverse;
+        margin-right: 0.5em;
+    }
 
-} */
-    /* .historic_container ul {
-        /* justify-content: center; */
-        /* text-align: justify; */
-        /* flex-direction: column;*/
+    .CastleGH h3 {
+        text-align: center;
+    }
+
+    .Museum h3 {
+        text-align: center;
+    }
+
+    .CityHall h3 {
+        text-align: center;
+    }
+
+
+   
+
 }
