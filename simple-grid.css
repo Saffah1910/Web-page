@@ -16,25 +16,9 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-  background-color: #ddbea9;
+   background-color: #ddbea9;
 
 }
-.table,
-tr,
-td,
-th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 1em;
-    margin: auto;
-}
-
-.table {
-    margin: auto;
-    padding: auto;
-    width: 100%;
-}
-
 
 /* ROOT FONT STYLES */
 
